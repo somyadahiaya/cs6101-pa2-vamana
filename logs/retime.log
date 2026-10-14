@@ -1,0 +1,91 @@
+sift1m exact 31.267
+sift1m hnsw 10 0.0626
+sift1m hnsw 16 0.0814
+sift1m hnsw 32 0.1295
+sift1m hnsw 64 0.2196
+sift1m hnsw 128 0.3899
+sift1m hnsw 256 0.7101
+sift1m hnsw 512 1.3215
+sift1m vamana (64, 100, 1.2) 10 0.0722
+sift1m vamana (64, 100, 1.2) 20 0.1146
+sift1m vamana (64, 100, 1.2) 30 0.1582
+sift1m vamana (64, 100, 1.2) 50 0.2422
+sift1m vamana (64, 100, 1.2) 75 0.3481
+sift1m vamana (64, 100, 1.2) 100 0.4325
+sift1m vamana (64, 100, 1.2) 150 0.618
+sift1m vamana (64, 100, 1.2) 200 0.8038
+sift1m vamana (64, 100, 1.2) 300 1.1808
+quora exact 16.228
+quora hnsw 10 0.0483
+quora hnsw 16 0.0626
+quora hnsw 32 0.0994
+quora hnsw 64 0.1686
+quora hnsw 128 0.2983
+quora hnsw 256 0.5506
+quora hnsw 512 1.051
+quora vamana (64, 100, 1.2) 10 0.0578
+quora vamana (64, 100, 1.2) 20 0.0905
+quora vamana (64, 100, 1.2) 30 0.1248
+quora vamana (64, 100, 1.2) 50 0.1894
+quora vamana (64, 100, 1.2) 75 0.2658
+quora vamana (64, 100, 1.2) 100 0.3418
+quora vamana (64, 100, 1.2) 150 0.4896
+quora vamana (64, 100, 1.2) 200 0.6389
+quora vamana (64, 100, 1.2) 300 0.9456
+nq exact 85.927
+nq hnsw 10 0.0803
+nq hnsw 16 0.1031
+nq hnsw 32 0.1594
+nq hnsw 64 0.2654
+nq hnsw 128 0.4658
+nq hnsw 256 0.8777
+nq hnsw 512 1.6282
+nq vamana (64, 100, 1.2) 10 0.0917
+nq vamana (64, 100, 1.2) 20 0.1322
+nq vamana (64, 100, 1.2) 30 0.1798
+nq vamana (64, 100, 1.2) 50 0.2679
+nq vamana (64, 100, 1.2) 75 0.3738
+nq vamana (64, 100, 1.2) 100 0.48
+nq vamana (64, 100, 1.2) 150 0.71
+nq vamana (64, 100, 1.2) 200 0.9065
+nq vamana (64, 100, 1.2) 300 1.342
+sift100k vamana (64, 100, 1.2) 10 0.0563
+sift100k vamana (64, 100, 1.2) 20 0.083
+sift100k vamana (64, 100, 1.2) 30 0.1196
+sift100k vamana (64, 100, 1.2) 50 0.1721
+sift100k vamana (64, 100, 1.2) 75 0.2294
+sift100k vamana (64, 100, 1.2) 100 0.2885
+sift100k vamana (64, 100, 1.2) 150 0.4057
+sift100k vamana (64, 100, 1.2) 200 0.5178
+sift100k vamana (32, 100, 1.2) 10 0.0317
+sift100k vamana (32, 100, 1.2) 20 0.0516
+sift100k vamana (32, 100, 1.2) 30 0.0696
+sift100k vamana (32, 100, 1.2) 50 0.1039
+sift100k vamana (32, 100, 1.2) 75 0.1453
+sift100k vamana (32, 100, 1.2) 100 0.1869
+sift100k vamana (32, 100, 1.2) 150 0.2689
+sift100k vamana (32, 100, 1.2) 200 0.3525
+sift100k vamana (96, 100, 1.2) 10 0.0571
+sift100k vamana (96, 100, 1.2) 20 0.0916
+sift100k vamana (96, 100, 1.2) 30 0.1249
+sift100k vamana (96, 100, 1.2) 50 0.1986
+sift100k vamana (96, 100, 1.2) 75 0.27
+sift100k vamana (96, 100, 1.2) 100 0.3425
+sift100k vamana (96, 100, 1.2) 150 0.473
+sift100k vamana (96, 100, 1.2) 200 0.6073
+sift100k vamana (64, 100, 1.0) 10 0.0265
+sift100k vamana (64, 100, 1.0) 20 0.0428
+sift100k vamana (64, 100, 1.0) 30 0.0587
+sift100k vamana (64, 100, 1.0) 50 0.09
+sift100k vamana (64, 100, 1.0) 75 0.1292
+sift100k vamana (64, 100, 1.0) 100 0.1705
+sift100k vamana (64, 100, 1.0) 150 0.2543
+sift100k vamana (64, 100, 1.0) 200 0.336
+sift100k vamana (64, 100, 1.4) 10 0.0471
+sift100k vamana (64, 100, 1.4) 20 0.075
+sift100k vamana (64, 100, 1.4) 30 0.1013
+sift100k vamana (64, 100, 1.4) 50 0.151
+sift100k vamana (64, 100, 1.4) 75 0.2102
+sift100k vamana (64, 100, 1.4) 100 0.2656
+sift100k vamana (64, 100, 1.4) 150 0.3736
+sift100k vamana (64, 100, 1.4) 200 0.4828

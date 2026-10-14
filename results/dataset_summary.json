@@ -1,0 +1,56 @@
+{
+  "sift1m": {
+    "corpus_size": 1000000,
+    "num_queries": 10000,
+    "original_dim": 128,
+    "search_dim": 128,
+    "raw_float32_MiB": 488.28125,
+    "source": "ann-benchmarks sift-128-euclidean.hdf5 (= texmex SIFT1M)",
+    "gt_verification": {
+      "agree_top1": 0.9926,
+      "agree_top10_overlap": 0.99935,
+      "agree_top100_overlap": 0.9998880000000001,
+      "n_top1_mismatch": 74,
+      "all_top1_mismatches_are_distance_ties": true,
+      "faiss_flat_gt_time_s": 102.62311367038637
+    }
+  },
+  "sift100k": {
+    "corpus_size": 100000,
+    "num_queries": 10000,
+    "original_dim": 128,
+    "search_dim": 128,
+    "raw_float32_MiB": 48.828125,
+    "source": "first 100,000 SIFT1M base vectors; GT by FAISS IndexFlatL2"
+  },
+  "quora": {
+    "corpus_size": 522931,
+    "num_queries": 10000,
+    "original_dim": 1024,
+    "search_dim": 128,
+    "raw_float32_MiB": 255.33740234375,
+    "source": "CohereLabs/beir-embed-english-v3 (corpus + test queries)",
+    "pca_implementation": "sklearn 1.7.2 PCA(n_components=128, svd_solver='covariance_eigh'), mean-centred",
+    "pca_fit_sample_size": 500000,
+    "pca_random_seed": 42,
+    "pca_explained_variance_128": 0.6174450516700745,
+    "post_processing": "float32 cast, then L2-normalised",
+    "gt": "FAISS IndexFlatL2 exact top-100 on 128-d vectors",
+    "gt_time_s": 51.09677084349096
+  },
+  "nq": {
+    "corpus_size": 2681468,
+    "num_queries": 3452,
+    "original_dim": 1024,
+    "search_dim": 128,
+    "raw_float32_MiB": 1309.310546875,
+    "source": "CohereLabs/beir-embed-english-v3 (corpus + test queries)",
+    "pca_implementation": "sklearn 1.7.2 PCA(n_components=128, svd_solver='covariance_eigh'), mean-centred",
+    "pca_fit_sample_size": 500000,
+    "pca_random_seed": 42,
+    "pca_explained_variance_128": 0.5988911986351013,
+    "post_processing": "float32 cast, then L2-normalised",
+    "gt": "FAISS IndexFlatL2 exact top-100 on 128-d vectors",
+    "gt_time_s": 103.48331207409501
+  }
+}

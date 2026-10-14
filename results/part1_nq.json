@@ -1,0 +1,121 @@
+{
+  "dataset": "nq",
+  "cpu_model": "AMD EPYC 7402 24-Core Processor",
+  "logical_cpus": 96,
+  "build_threads": 48,
+  "query_threads": 1,
+  "query_mode": "individual queries (batch size 1)",
+  "k": 10,
+  "exact": {
+    "build_time_s": 0.5230197422206402,
+    "index_size_MiB": 1309.3105897903442,
+    "1-recall@1": 1.0,
+    "10-recall@10": 0.9999710312862109,
+    "mean_latency_ms": 85.92711718473583,
+    "p50_latency_ms": 84.65768676251173,
+    "p95_latency_ms": 89.46336270309985,
+    "qps": 11.637769690912439,
+    "timing_queries": 1000,
+    "timing_repeats": 5
+  },
+  "hnsw_params": {
+    "M": 32,
+    "efConstruction": 200,
+    "build_time_s": 457.8782553272322,
+    "index_size_MiB": 2005.2491931915283
+  },
+  "hnsw": [
+    {
+      "efSearch": 10,
+      "build_time_s": 457.8782553272322,
+      "index_size_MiB": 2005.2491931915283,
+      "1-recall@1": 0.8832560834298957,
+      "10-recall@10": 0.8238991888760139,
+      "mean_latency_ms": 0.0802672728896141,
+      "p50_latency_ms": 0.07594749331474304,
+      "p95_latency_ms": 0.11696140281856059,
+      "qps": 12458.377667511257,
+      "timing_queries": 1000,
+      "timing_repeats": 5
+    },
+    {
+      "efSearch": 16,
+      "build_time_s": 457.8782553272322,
+      "index_size_MiB": 2005.2491931915283,
+      "1-recall@1": 0.925260718424102,
+      "10-recall@10": 0.8872247972190035,
+      "mean_latency_ms": 0.10313988756388426,
+      "p50_latency_ms": 0.09783124551177025,
+      "p95_latency_ms": 0.15024584718048573,
+      "qps": 9695.570003221166,
+      "timing_queries": 1000,
+      "timing_repeats": 5
+    },
+    {
+      "efSearch": 32,
+      "build_time_s": 457.8782553272322,
+      "index_size_MiB": 2005.2491931915283,
+      "1-recall@1": 0.9577056778679026,
+      "10-recall@10": 0.94382966396292,
+      "mean_latency_ms": 0.15944279450923204,
+      "p50_latency_ms": 0.15363935381174088,
+      "p95_latency_ms": 0.21958574652671806,
+      "qps": 6271.841904665676,
+      "timing_queries": 1000,
+      "timing_repeats": 5
+    },
+    {
+      "efSearch": 64,
+      "build_time_s": 457.8782553272322,
+      "index_size_MiB": 2005.2491931915283,
+      "1-recall@1": 0.9782734646581692,
+      "10-recall@10": 0.9764484356894554,
+      "mean_latency_ms": 0.2654316183179617,
+      "p50_latency_ms": 0.2589966170489788,
+      "p95_latency_ms": 0.3671437501907348,
+      "qps": 3767.448679765406,
+      "timing_queries": 1000,
+      "timing_repeats": 5
+    },
+    {
+      "efSearch": 128,
+      "build_time_s": 457.8782553272322,
+      "index_size_MiB": 2005.2491931915283,
+      "1-recall@1": 0.9910196987253765,
+      "10-recall@10": 0.9908458864426419,
+      "mean_latency_ms": 0.4658349296078086,
+      "p50_latency_ms": 0.4547447897493839,
+      "p95_latency_ms": 0.6406880915164948,
+      "qps": 2146.6831627287174,
+      "timing_queries": 1000,
+      "timing_repeats": 5
+    },
+    {
+      "efSearch": 256,
+      "build_time_s": 457.8782553272322,
+      "index_size_MiB": 2005.2491931915283,
+      "1-recall@1": 0.9953650057937428,
+      "10-recall@10": 0.9959154113557358,
+      "mean_latency_ms": 0.8776555005460978,
+      "p50_latency_ms": 0.864176545292139,
+      "p95_latency_ms": 1.1967325117439032,
+      "qps": 1139.399228259581,
+      "timing_queries": 1000,
+      "timing_repeats": 5
+    },
+    {
+      "efSearch": 512,
+      "build_time_s": 457.8782553272322,
+      "index_size_MiB": 2005.2491931915283,
+      "1-recall@1": 0.9979721900347625,
+      "10-recall@10": 0.997856315179606,
+      "mean_latency_ms": 1.6282459339126945,
+      "p50_latency_ms": 1.605082768946886,
+      "p95_latency_ms": 2.1689516492187972,
+      "qps": 614.1578364620804,
+      "timing_queries": 1000,
+      "timing_repeats": 5
+    }
+  ],
+  "timing_note": "latencies re-measured by retime.py (1 pinned core, 5 repeats)"
+}
